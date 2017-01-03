@@ -1,6 +1,8 @@
 FROM ubuntu:15.10
 
-MAINTAINER Kateryna Shlyakhovetska <shkate@jetbrains.com>
+#taken from snikifor post from https://hub.docker.com/r/jetbrains/teamcity-base/
+
+MAINTAINER effine <iballader@gmail.com>
 
 RUN apt-get update && apt-get install -y -q curl unzip \
     && apt-get clean all
